@@ -1,0 +1,394 @@
+/*
+Theme Name: myportfoli
+*/  
+html {
+  scroll-behavior: smooth;
+}
+
+  @font-face {
+font-family: "CalibreLight";
+src:
+url("fonts/Calibre/Calibre-Light.ttf"),
+url("fonts/Calibre/Calibre-Light.woff"),
+url("fonts/Calibre/Calibre-Light.woff2"),
+url("fonts/Calibre/Calibre-Lightltalic.ttf"),
+url("fonts/Calibre/Calibre-Lightltalic.woff"),
+url("fonts/Calibre/Calibre-Lightltalic.woff2");
+}
+
+  @font-face {
+font-family: "CalibreRegular";
+src:
+url("fonts/Calibre/Calibre-Regular.ttf"),
+url("fonts/Calibre/Calibre-Regular.woff"),
+url("fonts/Calibre/Calibre-Regular.woff2"),
+url("fonts/Calibre/Calibre-Regularltalic.ttf"),
+url("fonts/Calibre/Calibre-Regularltalic.woff"),
+url("fonts/Calibre/Calibre-Regularltalic.woff2");
+}
+
+  @font-face {
+font-family: "CalibreSemibold";
+src:
+url("fonts/Calibre/Calibre-Semibold.ttf"),
+url("fonts/Calibre/Calibre-Semibold.woff"),
+url("fonts/Calibre/Calibre-Semibold.woff2"),
+url("fonts/Calibre/Calibre-Semiboldltalic.ttf"),
+url("fonts/Calibre/Calibre-Semiboldltalic.woff"),
+url("fonts/Calibre/Calibre-Semiboldltalic.woff2");
+}
+
+  @font-face {
+font-family: "CalibreMedium";
+src:
+url("fonts/Calibre/Calibre-Medium.ttf"),
+url("fonts/Calibre/Calibre-Medium.woff"),
+url("fonts/Calibre/Calibre-Medium.woff2"),
+url("fonts/Calibre/Calibre-Mediumltalic.ttf"),
+url("fonts/Calibre/Calibre-Mediumltalic.woff"),
+url("fonts/Calibre/Calibre-Mediumltalic.woff2");
+}
+
+.openbtn {
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #64FFDA;
+  color: white;
+  padding: 3px 12px;
+  border: none;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color:#64FFDA;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  color: #0A192F;
+
+}
+
+#HederContainerId{
+	background-color: #0A192F;
+	border-bottom: 1px solid white ;
+
+
+
+}
+.navbar .navbar-nav .nav-link{
+	font-family:CalibreMedium;
+    padding-bottom: 2px;
+}
+
+#NavbarId{
+	  box-shadow: 0 4px 8px 0 rgba(7,21,41);
+	  padding-bottom: 0px;
+}
+
+
+
+#maincontainerid{
+	background-color: #0A192F;
+	
+}
+#maincontainerid1{
+	padding-bottom: 50px; 
+	background-color:#0A192F;
+	 padding: 40px;
+
+}
+.navbar{
+	background-color: #0A192F;
+	padding-bottom: 0px;
+
+}
+.navbar-item{
+	padding: 5px 15px;
+	text-decoration: none;
+}
+.navbar-link{
+	text-decoration: none;
+}
+#ResumeBtnId{
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 5px;
+	background-color: #0A192F;
+	color: #64FFDA;
+	border:1px solid #64FFDA;
+	font-size:13px;
+}
+#NameInfoId{
+padding-left: 30px;
+}
+
+
+#NameId1{
+	color:#64FFDA; 
+	font-family:CalibreMedium;
+    font-size:3vw;
+	
+}
+#NameId2{
+	color: white;
+     font-family:CalibreMedium;
+     font-size:8vw;
+     margin-bottom: 0px;
+
+}
+#NameId3{
+	color: white;
+	font-size:5vw;
+	font-family:CalibreMedium;
+
+}
+#OwnInfoId{
+	font-family:CalibreSemibold;
+	color: #8892B0;
+
+}
+#AboutSectionId{
+	color: white;
+	padding-top: 30px;
+	
+}
+#AboutId{ 
+
+    color:#007BF2; 
+	font-family:CalibreMedium;
+	font-size:25px;
+	font-weight: bold;
+	padding-left: 10px;
+}
+#AboutContentId{
+	padding: 20px 40px;
+	color: #8892B0;
+	font-family:CalibreMedium;
+}
+#AboutRowId{
+	padding-top: 40px;
+	display: block;
+}
+#AboutPhotoId{
+	padding-top: 60px;
+	width:50%;
+	 filter: grayscale(100%);
+	 transform:scale(1);
+	transition:all 0.5s;
+ 
+}
+
+table tr td{
+	padding: 1px 50px;
+
+}
+
+#AboutPhotoId:hover{
+	 filter: grayscale(0%);
+	 transform: scale(1.05);
+
+}
+.square{
+	height: 310px;
+	width: 300px;
+	border:2px solid #60E7CC;
+	float: right;
+	position: absolute;
+	right: 100px;
+	bottom: 10px;
+	
+
+}
+#WorkId{
+	color:#007BF2; 
+	font-family:CalibreMedium;
+	font-size:25px;
+	font-weight: bold;
+	padding-left: 18px;
+}
+#ColumWorkId{
+	padding-top: 40px;
+}
+#ContactId{
+	color:#007BF2; 
+	font-family:CalibreMedium;
+	font-size:25px;
+	font-weight: bold;
+	padding-left: 18px;
+
+}
+.iconclass{
+	float: right;
+	padding-top:5px;
+	size:5px;
+	padding-left:10px;
+	color: #60E7CC;
+}
+.hcardclass{
+	 float: right;
+	 font-family:CalibreMedium;
+	 color:#60E7CC;
+}
+.footerclass{
+	 text-align:center;
+}
+.projectnameclass{
+	color: #60E7CC;
+	font-family:CalibreMedium;
+}
+
+.conclass .card{
+	border:2px solid rgba(96,231,204);
+}
+
+
+
+.box{
+	position: relative;
+	perspective: 1000px;
+}
+
+.card .card-header{
+	background-color:black;
+}
+
+.card .CardImgCls{
+transform: rotateY(0);
+transition: all 0.5s ease-in-out 0s;
+
+
+}
+.card:hover .CardImgCls{
+transform: rotateY(-90deg);
+
+
+}
+.card .projClsname{
+	font-family:CalibreMedium;
+	font-size:20px;
+}
+
+#conid,#conid1,#conid3,#conid4{
+	width: 100%;
+	height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    padding:30px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    color:white;
+    background:#276366; 
+    transform: rotateY(90deg);
+   transition: all 0.5s ease-in-out 0s;
+
+ }
+ .box:hover #conid,#conid1 {
+ 	transform: rotateY(0);
+ }
+
+
+#ColumContactId{
+	padding-top: 40px;
+}
+#GetInTouchId{
+	font-family:CalibreMedium;
+    font-size:60px;
+    color:#CCD6F6;
+
+}
+#ContactPId{
+	margin-bottom: 0px;
+	color: #8892B0;
+	font-family:CalibreMedium;
+}
+#ContactPId1 {
+	text-align: center; 
+	color:#8892B0;
+	font-family:CalibreMedium;
+}
+#HelloBtnId{
+	background-color: #0A192F;
+	border:1px solid #60E7CC;
+	color: #60E7CC;
+	 text-align: center;
+	  padding: 10px 25px;
+	  border-radius:5px; 
+	  margin-top: 20px;
+
+}
+#LineId{
+	position: fixed; bottom: 0px; 
+	left: 75px;
+	 border: 1px solid rgb(96,231,204); 
+	z-index: 9;
+	 height: 150px;
+
+}
+
+.social-menu {
+	position: fixed;
+	 bottom:150px;
+	  left:10px;  
+	  z-index: 9;
+  
+}
+.social-menu ul  {
+	padding-left: 38px;
+	list-style-type: none;
+ 
+
+}
+.social-menu ul li{
+ padding: 10px;
+}
+.social-menu li a{
+	text-decoration: none;
+	color: #60E7CC;
+}
+.gmailcls{
+	position: fixed;
+	bottom:150px;
+	z-index: 9;
+	right: 35px;
+	display: table-cell;
+	 vertical-align: middle;
+	 color: #60E7CC;
+	 writing-mode: vertical-rl; 
+	 font-family:CalibreMedium;
+	}
+	#LineId1{
+position: fixed;
+ bottom: 0px; 
+ right: 75px; 
+ border: 1px solid rgb(96,231,204);
+  z-index: 9; 
+  height: 150px;"
+
+}
+
+@media screen and (max-width: 480px) {
+  .sidebarclass {
+  	display: none;
+}
+}
+
+@media screen and (max-width: 500px) {
+#squareId{
+	display: none;
+}
+}
